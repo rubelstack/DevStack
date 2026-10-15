@@ -9,10 +9,10 @@ function Nav() {
                                 <path strokeLinecap="round" strokeLinejoin="round" d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5" />
                             </svg>
                         </button>
-                    <img src={Logo} alt="Logo" />
+                    <a href="#"><img src={Logo} alt="Logo" /></a>
                <div className="hidden md:flex items-center">
                  <ul className="flex gap-4 items-center ">
-                    <li> <a href="#">Home</a></li>
+                    <li className="text-[#D91B7E]"> <a href="#">Home</a></li>
                     <li> <a href="#">Technologies</a></li>
                     <li> <a href="#">Projects</a></li>
                     <li> <a href="#">About</a></li>
@@ -20,8 +20,8 @@ function Nav() {
                 </ul>
                 </div>
                 <div className="gap-4 flex items-center">
-                <button>Sign In</button>
-                <button className="bg-[#D91B7E] text-white px-4 py-2 rounded-full">Signup</button>
+                <a href="#">Sign In</a>
+                <a href="#" className="bg-[#D91B7E] text-white px-4 py-2 rounded-full inline-block">Signup</a>
                  
                 </div>
                     </div>
