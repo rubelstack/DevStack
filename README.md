@@ -1,32 +1,40 @@
-# React + TypeScript + Vite
+# DevStack
 
-This template provides a minimal setup to get React working in Vite with HMR and some Oxlint rules.
+My Project name is DevStack its just a simple project of assignment 5
+## About the project
 
-Currently, two official plugins are available:
+The technologies are shown in cards with their name, category, description, difficulty, and rating. You can add technologies to **Your Stack** and manage your choices in the sidebar.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## Technologies I used
 
-## React Compiler
+- React
+- TypeScript
+- Vite
+- Tailwind CSS
+- React Toastify
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## Features
 
-## Expanding the Oxlint configuration
+1. Browse technology cards from the project data.
+2. Add technologies to your stack and see them in the sidebar.
+3. Remove one technology or clear the whole stack, with a message for each action.
 
-If you are developing a production application, we recommend enabling type-aware lint rules by installing `oxlint-tsgolint` and editing `.oxlintrc.json`:
+## Run the project
 
-```json
-{
-  "$schema": "./node_modules/oxlint/configuration_schema.json",
-  "plugins": ["react", "typescript", "oxc"],
-  "options": {
-    "typeAware": true
-  },
-  "rules": {
-    "react/rules-of-hooks": "error",
-    "react/only-export-components": ["warn", { "allowConstantExport": true }]
-  }
-}
+Install the packages:
+
+```bash
+npm install
 ```
 
-See the [Oxlint rules documentation](https://oxc.rs/docs/guide/usage/linter/rules) for the full list of rules and categories.
+Start the development server:
+
+```bash
+npm run dev
+```
+
+
+## Q&A Part
+1. jsx is exntended version of java script that allows you to write html code in javascript its similar to html but not fully liek html cause its xml 
+
+2 props are immutable and states are mutable and props are use for passed data parents to child components and state used for make it dynamic 
