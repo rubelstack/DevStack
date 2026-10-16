@@ -13,12 +13,10 @@ function Cards({ cardPromise }: CardProps) {
   const [selectedTechnologies, setSelectedTechnologies] = useState<Technology[]>([]);
 
   const addTechnology = (technology: Technology) => {
-    if (selectedTechnologies.some((item) => item.id === technology.id)) {
-      toast.warning("Already added to your stack!");
-    } else {
+   
       setSelectedTechnologies([...selectedTechnologies, technology]);
-      toast.success("Added to your stack!");
-    }
+      toast.success("Added{} to your stack!");
+    
   };
 
   const removeTechnology = (id: string) => {
