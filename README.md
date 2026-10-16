@@ -38,3 +38,6 @@ npm run dev
 1. jsx is exntended version of java script that allows you to write html code in javascript its similar to html but not fully liek html cause its xml 
 
 2 props are immutable and states are mutable and props are use for passed data parents to child components and state used for make it dynamic 
+
+> [!NOTE]
+> i took help of ai to gen json data and i have instructed chatgpt to add category bg and category color so every cards category have different color according to its logo and also took help to make the toast message previously i have learned how to toast allert message so i took help to learn how to make it for this project.
